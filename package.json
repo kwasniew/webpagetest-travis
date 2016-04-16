@@ -1,0 +1,14 @@
+{
+  "name": "travis-webpagetest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "webpagetest test http://www.aftenposten.no --key $WPT_API_KEY --first --poll --timeout 60 --specs specs.json --reporter spec"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpagetest": "^0.3.4"
+  }
+}
